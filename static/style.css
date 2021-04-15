@@ -15,7 +15,7 @@
   --inner: 10em;
   --orphan: 2;
   --contact-size: 180px;
-  --column:2;
+  --column: 2;
 }
 
 html {
@@ -52,7 +52,7 @@ ul {
   padding-left: 1.25em;
 }
 li {
-  padding-right:2em;
+  padding-right: 2em;
 }
 #navbar {
   min-height: 70px;
@@ -96,7 +96,7 @@ li {
   margin: 0px var(--margin);
   padding: 100px 0;
 }
-.footer-content{
+.footer-content {
   margin: 0px calc(var(--margin) * 0.3);
   padding: 10px 0;
 }
@@ -114,9 +114,10 @@ li {
   border-image: var(--gradien);
   border-image-slice: 1;
 }
-.project-img{
+.project-img {
   /* width: max(640px, 100%); */
   width: 80vmin;
+  margin: auto;
 }
 .logo {
   width: 64px;
@@ -184,16 +185,19 @@ li {
 #skills .child:last-child {
   grid-column-start: var(--orphan);
 }
+#projects .child {
+  max-width: 700px;
+}
 .space {
   padding-bottom: 100px;
 }
-.red{
-  color:red;
+.red {
+  color: red;
 }
-.inline{
+.inline {
   display: inline-block;
 }
-.vertical{
+.vertical {
   margin-right: 10em;
 }
 /* Smartphones (portrait and landscape) ----------- */
@@ -203,7 +207,7 @@ li {
     --inner: 0em;
     --orphan: 1;
     --contact-size: 100px;
-    --column:1;
+    --column: 1;
   }
 }
 
@@ -214,7 +218,7 @@ li {
     --inner: 2em;
     --orphan: 2;
     --contact-size: 120px;
-    --column:1;
+    --column: 1;
   }
 }
 
